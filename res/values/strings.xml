@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Samsung Checkout</string>
+    <string name="viewinventory_string">View Inventory</string>
+    <string name="viewOrders_string">View Orders</string>
+    <string name="addDevice_string">Add Device</string>
+    <string name="addModel_string">Add Model</string>
+    <string name="addInventoryDB_string">Add Inventory Database</string>
+    <string name="placeOrder_string">Place Order</string>
+    <string name="exportinventory_string">Export Inventory Database</string>
+
+</resources>

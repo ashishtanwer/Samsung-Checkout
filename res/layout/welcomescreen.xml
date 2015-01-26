@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/viewInventory_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewinventory_string" />
+     
+    <Button
+        android:id="@+id/viewOrders_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewOrders_string" />
+    
+    <Button
+        android:id="@+id/addDevice_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addDevice_string" />
+    
+    <Button
+        android:id="@+id/addModel_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addModel_string" />
+    
+    <Button
+        android:id="@+id/addInventoryDB_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addInventoryDB_string" />
+    
+    <Button
+        android:id="@+id/placeOrder_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeOrder_string" />
+    
+        <Button
+        android:id="@+id/exportinventory_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exportinventory_string" />
+
+</LinearLayout>

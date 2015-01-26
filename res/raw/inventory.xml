@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inventory>
+	<device> 
+		<type>Smartphone</type>
+		<name>Samsung GS5</name>
+		<price>$500</price>
+		<OS>Android</OS>
+		<resolution>1920 * 1280</resolution>
+		<camera>16MP</camera>
+		<choice>
+			<memory>8 GB</memory>
+			<color>black</color>
+			<quantity>10</quantity>
+			<model>SM-B08</model>
+		</choice>
+		<choice>
+			<memory>8 GB</memory>
+			<color>white</color>
+			<quantity>10</quantity>
+			<model>SM-W08</model>
+		</choice>
+		<choice>
+			<memory>16 GB</memory>
+			<color>black</color>
+			<quantity>10</quantity>
+			<model>SM-B16</model>
+		</choice>
+		<choice>
+			<memory>16 GB</memory>
+			<color>white</color>
+			<quantity>10</quantity>
+			<model>SM-W16</model>
+		</choice>
+	</device>
+	<device>
+		<type>Wearable</type>
+		<name>Samsung Gear</name>
+		<price>$300</price>
+		<OS>Tizen</OS>
+		<choice>
+			<color>white</color>
+			<model>SM-GWH</model>
+			<quantity>10</quantity>
+		</choice>
+		<choice>
+			<color>Black</color>
+			<quantity>10</quantity>
+			<model>SM-GBK</model>
+		</choice>
+	</device>
+</inventory>

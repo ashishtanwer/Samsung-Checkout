@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+		<xs:element name="device_type">
+		  <xs:simpleType>
+			<xs:restriction base="xs:string">
+			  <xs:enumeration value="Smartphone"/>
+			  <xs:enumeration value="Tablet"/>
+			  <xs:enumeration value="Wearable"/>
+			  <xs:enumeration value="Other"/>
+			</xs:restriction>
+		  </xs:simpleType>
+		<xs:element name="platform">
+		  <xs:simpleType>
+			<xs:restriction base="xs:string">
+			  <xs:enumeration value="Android"/>
+			  <xs:enumeration value="Tizen"/>
+			  <xs:enumeration value="Unknown"/>
+			</xs:restriction>
+		  </xs:simpleType>
+		</xs:element>
+       <xs:element name="inventory">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="device" maxOccurs="unbounded">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="type" type="device_type"></xs:element>
+                                                 <xs:element name="name" type="xs:string"></xs:element>
+                                                 <xs:element name="price" type="xs:string"></xs:element>
+                                                 <xs:element name="OS" type="platform"></xs:element>
+                                                 <xs:element name="resolution" type="xs:string"></xs:element>
+												 <xs:element name="display" type="xs:string"></xs:element>
+                                                 <xs:element name="camera" type="xs:string"></xs:element>
+                                                 <xs:element name="choice" maxOccurs="1" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="memory" type="xs:string"></xs:element>
+                                                                      <xs:element name="color" type="xs:string"></xs:element>
+                                                                      <xs:element name="quantity" type="xs:int"></xs:element>
+                                                                      <xs:element name="model" type="xs:string"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
