@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Problem:
 Design and implement an Android application which maintains device inventory and allows user to order the devices:
 
@@ -26,3 +27,7 @@ Expected deliverables:
 ·  APK and Screenshots
 
 ·  Assumptions made (if any)
+=======
+# Samsung-Checkout
+Inventory Management App
+>>>>>>> 81de231689a55bead65a136e71ea9373d69f833b
